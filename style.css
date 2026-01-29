@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa; color: #6c757d;
+}
+
+.card {
+    border: none; border-radius: 10px; box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); margin-bottom: 20px;
+}
+
+.breadcrumb {
+    background: transparent; padding: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+}
+
+.progress {
+    height: 5px;
+}
+
+.achievement-icon {
+    width: 45px; height: 45px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 15px;
+}
+
+.bg-gold {
+    background-color: #fff9e6; color: #ffc107;
+}
+.bg-blue-light {
+    background-color: #e7f3ff; color: #0d6efd;
+}
+
+.bg-green-light {
+    background-color: #e8f5e9; color: #2e7d32;
+}
+
+.bg-cyan-light {
+background-color: #e0f7fa; color: #00acc1;
+}
